@@ -1,2 +1,10 @@
-build
-!.vscode/*
+build/
+cmake-build-*/
+*.elf
+*.uf2
+*.bin
+*.map
+*.o
+*.dis
+
+.vscode/
